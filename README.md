@@ -1,0 +1,2 @@
+# base
+chef-go base.
