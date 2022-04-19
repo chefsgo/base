@@ -1,3 +1,3 @@
-module github.com/chef-go/base
+module github.com/chefsgo/base
 
 go 1.17

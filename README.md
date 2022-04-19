@@ -1,2 +1,2 @@
 # base
-chef-go base
+chefsgo base
