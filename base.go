@@ -21,14 +21,14 @@ type (
 		Required bool   `json:"r"`
 		Nullable bool   `json:"-"`
 		Name     string `json:"n,omitempty"`
-		Desc     string `json:"d,omitempty"`
+		Text     string `json:"t,omitempty"`
 		Default  Any    `json:"-"`
 		Setting  Map    `json:"-"`
 		Children Vars   `json:"cs,omitempty"`
 		Options  Map    `json:"os,omitempty"`
 
-		Encrypt string `json:"enc,omitempty"`
-		Decrypt string `json:"dec,omitempty"`
+		Encode string `json:"enc,omitempty"`
+		Decode string `json:"dec,omitempty"`
 
 		Empty Res `json:"-"`
 		Error Res `json:"-"`
