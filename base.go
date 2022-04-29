@@ -14,7 +14,8 @@ type (
 		Error() string
 	}
 
-	Vars map[string]Var
+	Strs = map[string]string
+	Vars = map[string]Var
 	Var  struct {
 		nil      bool
 		Type     string `json:"t"`
