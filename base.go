@@ -1,5 +1,7 @@
 package base
 
+//
+
 type (
 	// Any 任意类型
 	Any = interface{}
