@@ -106,18 +106,3 @@ const (
 	UNLINK  = "UNLINK"
 	WRAPPED = "WRAPPED"
 )
-
-const (
-	ENTITY   = "Entity"
-	ENTITIES = "Entities"
-	CREATE   = "Create"
-	CREATES  = "Creates"
-	CHANGE   = "Change"
-	CHANGES  = "Changes"
-	REMOVE   = "Remove"
-	REMOVES  = "Removes"
-	RECOVER  = "Recover"
-	RECOVERS = "Recovers"
-	FILTER   = "Filter"
-	UPLOAD   = "Upload"
-)
